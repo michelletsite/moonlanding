@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*font-family: 'Work Sans',sans-serif;*/
+    font-family: 'Apercu Pro', sans-serif;;
+    font-size: 20pt;
+    width: 100%;
+    line-height: 165%;
+    color: white;
+    background-color: rgb(12,16,27);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255,250,230);
+}
+
+h1{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+h2{
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+#container{
+    width: 80vw;
+    max-width: 600px;
+    margin-left: 10vw;
+}
+#container img{
+    width: 100%;
+}
+
+.block{
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+}
+
+p{
+    margin: 20px 0px;
+}
+
+strong{
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+
+blockquote{
+    border-left: 2px solid black;
+    padding-left: 5px;
+}
+
+code{
+    background-color: #ccc;
+    padding: 5px;
+}
