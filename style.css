@@ -8,9 +8,15 @@
     src: url('a.otf') format("opentype");
 }
 
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:200');
+</style>
+
+}
+
 body{
     /*font-family: 'Work Sans',sans-serif;*/
-    font-family: 'AL', sans-serif;;
+    font-family: Poppins, 'AL', sans-serif;
     font-size: 18pt;
     font-weight: lighter;
     width: 100%;
