@@ -3,15 +3,14 @@
     padding: 0;
 }
 
-<style>
-@import url('https://fonts.googleapis.com/css?family=Poppins:200');
-</style>
-
+@font-face {
+    font-family: 'AL';
+    src: url('a.otf') format("opentype");
 }
 
 body{
     /*font-family: 'Work Sans',sans-serif;*/
-    font-family: Poppins, sans-serif;
+    font-family: 'AL', sans-serif;;
     font-size: 18pt;
     font-weight: lighter;
     width: 100%;
